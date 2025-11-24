@@ -168,100 +168,12 @@ section{
     color: white;
     opacity: 0.8;
 }
-.skills{
-    display: flex;
-    text-align: left;
-    gap: 10em;
-}
 .about-box h2 span {
     background: none;
     -webkit-background-clip: unset;
     -webkit-text-fill-color: unset;
     background-clip: unset;
     color: white;
-}
-
-.skills-list {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 4em;
-    margin-top: 2em;
-    color: white;
-}
-
-.skills-column {
-    display: flex;
-    flex-direction: column;
-    gap: 2em;
-}
-
-.skill-item {
-    display: flex;
-    align-items: center;
-    gap: 1em;
-    padding-right: 0em;
-    padding-left: 0em;
-}
-
-.skill-item i {
-    font-size: 2em; /* Ukuran ikon yang lebih kecil */
-    color: #555;
-}
-
-.skill-item .skill-name {
-    min-width: 100px; /* Lebar minimum untuk nama skill */
-    font-size: 1.1em;
-}
-
-.progress-bar-container {
-    width: 100%;
-    height: 10px;
-    background-color: #555;
-    border-radius: 5px;
-    overflow: hidden;
-}
-
-.progress-bar {
-    height: 100%;
-    background-color: #6495ED; /* Warna biru cornflower */
-    transition: width 0.5s ease-in-out;
-}
-
-.skill-percent {
-    width: 40px; /* Lebar tetap untuk persentase */
-    text-align: right;
-    font-weight: 500;
-}
-
-/* Atur persentase skillmu di sini */
-.html-progress { width: 70%; }
-.css-progress { width: 70%; }
-.js-progress { width: 50%; }
-.mysql-progress { width: 70%; }
-.figma-progress { width: 80%; }
-.excel-progress { width: 80%; }
-
-.skills ul{
-    font-size: 1.3em;
-    font-weight: 500;
-    display: flex;
-    flex-direction: column;
-    color: white;
-    opacity: 0.8;
-    align-items: baseline;
-}
-.skills ul li span{
-    display: flex;
-    align-items: center;
-    gap: 0.5em;
-    font-size: 1.3em;
-    transition: 0.3 ease-in-out;
-}
-.skills ul li span:hover{
-    transform: translate(10px);
-}
-.skills ul li i{
-    font-size: 1.2em;
 }
 .about-box h2{
     font-size: 2.5em;

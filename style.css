@@ -170,7 +170,6 @@
   .about-box p {
     color: white;
     opacity: 0.8;
-    /* Added line-height for better spacing between lines */
     line-height: 1.8;
     margin-bottom: 1em;
   }
@@ -264,12 +263,10 @@
   
   #contact {
     background-color: var(--second-background);
-    /* Reduced padding/space for contact section */
     min-height: auto;
     padding: 5em 15%;
   }
   
-  /* New contact info styles (replaced form) */
   .contact-info {
     display: flex;
     flex-direction: column;
@@ -305,7 +302,6 @@
   }
   
   footer {
-    /* Reduced footer padding since content removed */
     display: flex;
     flex-wrap: wrap;
     align-items: flex-start;
@@ -373,7 +369,6 @@
     color: white;
   }
   
-  /* Improved responsive design for mobile/tablet devices */
   @media (max-width: 968px) {
     section {
       padding: 6em 10%;
@@ -542,7 +537,6 @@
     }
   }
   
-  /* Extra small devices (phones under 400px) */
   @media (max-width: 400px) {
     .info-box h1 {
       font-size: 1.5em;
@@ -577,8 +571,6 @@
   #line2,
   #line3 {
     overflow: hidden;
-    /* Removed white-space: nowrap and border-right cursor */
-    /* Now text will wrap properly and no cursor showing */
   }
   .info-box span {
     background: linear-gradient(to right, antiquewhite, lightblue);
@@ -587,5 +579,3 @@
     background-clip: text;
     color: transparent;
   }
-  /* Removed blink animation - not needed without cursor */
-  
